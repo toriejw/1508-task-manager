@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <title>My Sinatra Application</title>
+</head>
+<body>
+  <div class="container">
+    <h1>All Tasks</h1>
+
+  <div>
+    <h3 class= "task-707" >707: <a href="/tasks/707">1 title</a></h3>
+    <a href="/tasks/707/edit" id="edit-button">edit</a>
+    <form action="/tasks/707" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="delete">
+    </form>
+  </div>
+  <div>
+    <h3 class= "task-708" >708: <a href="/tasks/708">2 title</a></h3>
+    <a href="/tasks/708/edit" id="edit-button">edit</a>
+    <form action="/tasks/708" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="delete">
+    </form>
+  </div>
+  <div>
+    <h3 class= "task-709" >709: <a href="/tasks/709">dogsitting</a></h3>
+    <a href="/tasks/709/edit" id="edit-button">edit</a>
+    <form action="/tasks/709" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="delete">
+    </form>
+  </div>
+  <div>
+    <h3 class= "task-710" >710: <a href="/tasks/710">dogsitting</a></h3>
+    <a href="/tasks/710/edit" id="edit-button">edit</a>
+    <form action="/tasks/710" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="delete">
+    </form>
+  </div>
+
+  </div>
+</body>
+</html>

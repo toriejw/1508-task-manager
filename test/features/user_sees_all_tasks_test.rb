@@ -42,7 +42,7 @@ class UserSeesAllTasksTest < FeatureTest
 
   def test_user_can_delete_a_task
     create_tasks(1)
-    
+
     visit "/tasks"
     click_button("delete")
 

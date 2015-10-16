@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <title>My Sinatra Application</title>
+</head>
+<body>
+  <div class="container">
+    <h1>All Tasks</h1>
+
+  <div>
+    <h3 class= "task-734" >734: <a href="/tasks/734">dogsitting</a></h3>
+    <a href="/tasks/734/edit" id="edit-button">edit</a>
+    <form action="/tasks/734" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="delete">
+    </form>
+  </div>
+  <div>
+    <h3 class= "task-735" >735: <a href="/tasks/735">dogsitting</a></h3>
+    <a href="/tasks/735/edit" id="edit-button">edit</a>
+    <form action="/tasks/735" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="delete">
+    </form>
+  </div>
+
+  </div>
+</body>
+</html>
